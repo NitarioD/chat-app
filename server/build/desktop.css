@@ -1,0 +1,271 @@
+@media screen and (min-width: 769px) {
+  body {
+    background-color: #FFFFFF;
+  }
+  .profile-pic {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 200px;
+    border: 5px solid black;
+  }
+  .header {
+    padding: 5px 10px 0;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #4D77FF;
+    height: 200px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-sizing: border-box;
+  }
+  .logo {
+    display: block;
+    width: 200px;
+    border-radius: 10px;
+    height: 65px;
+  }
+  .logo-container {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 130px;
+  }
+  .kebab {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 30px;
+  }
+  .header-user {
+    position: absolute;
+    right: 10px;
+    text-shadow: 0 0 0;
+    bottom: 0;
+  }
+  .menubox {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    box-shadow: 2px 1px 7px 2px black;
+    width: 30%;
+  }
+  .menubox div {
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+  }
+  .message-group {
+    padding: 10px;
+    display: flex;
+  }
+  .chat-user span {
+    background-color: #4D77FF;
+    color: white;
+    padding: 0 10px 10px 10px;
+    line-height: 1;
+    height: 50px;
+    border-radius: 100%;
+    position: fixed;
+    right: 30px;
+    bottom: 40px;
+    font-size: 4rem;
+  }
+  .img-box {
+    width: 20%;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .img-box img {
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  h3 {
+    color: grey;
+    margin: 0;
+    padding: 5px 10px 10px 0;
+  }
+  .message-box p {
+    margin: 0;
+    color: grey;
+  }
+  .access-container {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #4D77FF 600px, white 100px);
+    /* background: linear-gradient(to bottom, #4D77FF 50%, #FFFFFF 50%); */
+  }
+  .entry-logo {
+    padding-top: 100px;
+    margin: auto;
+    width: 50% !important;
+  }
+  .entry-logo img {
+    width: 100%;
+    border-radius: 20px;
+  }
+  .access {
+    height: 400px;
+    width: 70%;
+    padding: 80px 30px 0;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    box-shadow: 2px 3px 15px 1px black;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+  }
+  .access-label span {
+    float: right;
+  }
+  .access div {
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  .access span {
+    display: block;
+    font-style: italic;
+    color: red;
+    margin-bottom: 20px;
+  }
+  .access-label {
+    height: 20px !important;
+    font-weight: 600;
+    color: grey;
+    font-size: 1.5rem;
+  }
+  .access button {
+    width: 25%;
+    height: 40px;
+    font-size: 2rem;
+    border-radius: 5px;
+    float: right;
+  }
+  .signup {
+    float: left !important;
+    color: grey;
+  }
+  .access button:active {
+    background-color: #4D77FF;
+    color: white;
+  }
+  .access div input {
+    background-color:;
+    height: 50px;
+    margin-left: 5px;
+    width: 60%;
+    font-size: 1rem;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+  .state-tag {
+    margin-bottom: 20px;
+    background-color: #4D77FF;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    color: #FFFFFF;
+  }
+  .state-tag span {
+    display: block;
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  .back {
+    position: relative;
+    font-size: 1.5rem;
+    top: 20px;
+    left: 20px;
+  }
+  .chat {
+    height: 40px;
+    margin-bottom: 50px;
+  }
+  .common-chat {
+    padding: 15px;
+    background-color: #4D77FF;
+    max-width: 50%;
+    box-sizing: border-box;
+    margin: 0 10px;
+    color: #FFFFFF;
+    border-radius: 10px;
+  }
+  .user-chat {
+    float: right;
+  }
+  .friend-chat {
+    float: left;
+  }
+  .convo {
+    position: relative;
+  }
+  .compose {
+    height: 100px;
+    width: 100%;
+    background-color: #4D77FF;
+    box-shadow: 2px 2px 2px 2px black;
+    position: fixed;
+    bottom: 0px;
+  }
+  .compose input {
+    height: 50px;
+    width: 80%;
+    margin: 20px 0 20px 20px;
+    padding-left: 20px;
+    font-size: 1rem;
+    border: 0;
+    border-radius: 25% 0 0 25%;
+    box-sizing: border-box;
+  }
+  .compose img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 0 70% 70% 0;
+  }
+  .space {
+    height: 90px;
+    width: 100%;
+  }
+  .search-users {
+    background-color: white;
+    height: 20px;
+    width: 60%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+  }
+  .user {
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 5px;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5px;
+    border: 2px solid #4D77FF;
+    color: #4D77FF;
+  }
+  .user img {
+    width: 35px;
+    height: 35px;
+    border-radius: 80%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-right: 20px;
+    z-index: -1;
+  }
+}
